@@ -77,7 +77,7 @@ body{
 
 .left{
   float: left;
-  padding: 25px;
+  padding: 25px 0px;
 }
 
 .lang, .contact-sales a{
@@ -104,7 +104,7 @@ body{
 
 .right{
   float: right;
-  padding: 25px;
+  padding: 25px 0px;
 }
 
 .search i{
@@ -138,4 +138,37 @@ body{
 nav{
   margin-top: 85px;
   height: 85px;
+  box-shadow: 0px 0px 3px 0px;
+}
+
+nav .page-width{
+  position: relative;
+  height: 90px;
+}
+
+nav img{
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  transform: translate(0%, -50%);
+}
+
+nav ul{
+  float: right;
+}
+
+nav li{
+  display: inline-block;
+  padding: 30px 20px;
+}
+
+nav select, nav a{
+  background: none;
+  border: none;
+  font-size: 1.05em;
+  font-family: inherit;
+  font-weight: 500;
+  text-decoration: none;
+  color: #39475b;
+  cursor: pointer;
 }
