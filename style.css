@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'AvenirNext';
+  src: url('font/AvenirNextCyr-Bold.eot');
+  font-weight: bold;
+  font-style: normal;
+}
+
+html {
+    font-size: 18px;
+}
+
+}
+
+body{
+  color: #33475b;
+  font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
+  line-height: 1.611em;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page-width{
+  max-width: 1080px;
+  margin: 0 auto;
+  /* padding: 0 2rem; */
+}
+
+/* HEADER----------------------- */
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+.sticky-header::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.sticky-header{
+  background-color: #f5f8fa;
+  border-bottom: 1px solid #cbd6e2;
+}
+
+/* LEFT ------*/
+
+/* RIGHT ---- */
