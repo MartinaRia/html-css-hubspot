@@ -65,7 +65,8 @@ body{
   position: fixed;
   top: 0px;
   left: 0px;
-  width: 100%
+  width: 100%;
+  z-index: 1;
 }
 
 .sticky-header *{
@@ -120,7 +121,7 @@ body{
   border: 1px solid #ff7a59;
   background: white;
   margin: 0px 5px;
-  border-radius: 5px
+  border-radius: 3px;
 }
 
 .get-it a{
@@ -131,14 +132,15 @@ body{
   background: #fe7a59;
   padding: 12px 10px;
   margin: 0px 5px;
-  border-radius: 5px
+  border-radius: 3px;
 }
 
 /* NAV --------------- */
 nav{
   margin-top: 85px;
   height: 85px;
-  box-shadow: 0px 0px 3px 0px;
+  /* box-shadow: 0px 2px 3px 0px;
+  position: relative; */
 }
 
 nav .page-width{
@@ -171,4 +173,57 @@ nav select, nav a{
   text-decoration: none;
   color: #39475b;
   cursor: pointer;
+}
+
+/* MAIN ------------------------------------- */
+
+/* JIMBOTRON ---------------------------- */
+.jumbotron{
+  background: url(img/jumbotron.png);
+  height: 695px;
+  background-position: top right;
+  background-repeat: no-repeat;
+  box-shadow: inset 0 11px 8px -10px rgba(51,71,91,0.12);
+}
+
+.jumbotron .page-width{
+  position: relative;
+  height: 695px;
+}
+
+.box-title{
+  position: absolute;
+  top:100px;
+  left:0px;
+  width: 40%;
+}
+
+.box-title h1{
+  font-size: 2.555rem;
+  line-height: 1.304em;
+}
+
+.box-title a{
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+  background: #ff7a59;
+  padding: 25px;
+  border-radius: 3px;
+}
+
+.button{
+  margin: 40px 0px;
+}
+
+.subtitle{
+  margin: 20px 0px;
+}
+
+.below-button{
+  font-size: 0.7777rem;
+  color:#33475b;
+  max-width: 14rem;
+  font-weight: 500;
+  line-height: 1.4em;
 }
