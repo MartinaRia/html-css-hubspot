@@ -1,6 +1,27 @@
 @font-face {
-  font-family: 'AvenirNext';
-  src: url('font/AvenirNextCyr-Bold.eot');
+    font-family: 'Avenir Next Cyr';
+    src: url('font/AvenirNextCyr-Light.ttf');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir Next Cyr';
+    src: url('font/AvenirNextCyr-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir Next Cyr';
+    src: url('font/AvenirNextCyr-Medium.ttf');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir Next Cyr';
+  src: url('font/AvenirNextCyr-Bold.ttf');
   font-weight: bold;
   font-style: normal;
 }
@@ -9,12 +30,11 @@ html {
     font-size: 18px;
 }
 
-}
-
 body{
   color: #33475b;
-  font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "Avenir Next Cyr";
   line-height: 1.611em;
+  font-weight: normal;
 }
 
 *{
@@ -30,12 +50,8 @@ body{
 }
 
 /* HEADER----------------------- */
-.left{
-  float: left;
-}
-.right{
-  float: right;
-}
+
+/* STICKY HEADER------------- */
 .sticky-header::after{
   content: "";
   display: table;
@@ -45,8 +61,81 @@ body{
 .sticky-header{
   background-color: #f5f8fa;
   border-bottom: 1px solid #cbd6e2;
+  height: 85px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%
 }
+
+.sticky-header *{
+  text-decoration: none;
+}
+
 
 /* LEFT ------*/
 
+.left{
+  float: left;
+  padding: 25px;
+}
+
+.lang, .contact-sales a{
+  color:#33475b;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.lang {
+  background: none;
+  border: none;
+  font-family: inherit;
+
+}
+
+.lang-select{  padding-right: 20px;}
+
+.contact-sales{
+  padding-left: 20px;
+  border-left: solid 1px #cbd6e2;
+}
+
 /* RIGHT ---- */
+
+.right{
+  float: right;
+  padding: 25px;
+}
+
+.search i{
+  color:#00a4bd;
+  margin: 0px 20px
+}
+
+.login a{
+  color: #fe7a59;
+  font-size: .75rem;
+  font-weight: 500;
+  padding: 12px 25px;
+  border: 1px solid #ff7a59;
+  background: white;
+  margin: 0px 5px;
+  border-radius: 5px
+}
+
+.get-it a{
+  color: white;
+  font-size: .75rem;
+  font-weight: 500;
+  border: 1px solid #ff7a59;
+  background: #fe7a59;
+  padding: 12px 10px;
+  margin: 0px 5px;
+  border-radius: 5px
+}
+
+/* NAV --------------- */
+nav{
+  margin-top: 85px;
+  height: 85px;
+}
