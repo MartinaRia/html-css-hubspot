@@ -44,8 +44,9 @@ body{
 }
 
 .page-width{
-  max-width: 1080px;
+  max-width: 1130px;
   margin: 0 auto;
+  padding: 0px 30px;
   /* padding: 0 2rem; */
 }
 
@@ -151,7 +152,7 @@ nav .page-width{
 nav img{
   position: absolute;
   top: 50%;
-  left: 0px;
+  left: 30px;
   transform: translate(0%, -50%);
 }
 
@@ -194,8 +195,8 @@ nav select, nav a{
 .box-title{
   position: absolute;
   top:100px;
-  left:0px;
-  width: 40%;
+  left:30px;
+  width: 35%;
 }
 
 .box-title h1{
@@ -226,4 +227,70 @@ nav select, nav a{
   max-width: 14rem;
   font-weight: 500;
   line-height: 1.4em;
+}
+
+/* BIGGEST ---------------------------- */
+
+/* NO-BG--------------------- */
+.biggest{
+  background: #f5f8fa;
+}
+.no-bg{
+  width: 100%;
+  text-align: center;
+  padding: 90px 0px;
+}
+.no-bg img{
+  width: 260px;
+  margin:auto;
+}
+.no-bg h2{
+  margin-bottom: 20px;
+  font-size: 1.777rem;
+}
+
+/* RETTANGOLO WHITE -------- */
+.rettangolo-white{
+  background: WHITE;
+  border-radius: 4px;
+  width: 100%;
+  padding: 2rem;
+  box-shadow: 0 0 11px #eaf0f6;
+  margin-bottom: 2rem;
+  height: 228px;
+  transition: 0.3s ease-in-out;
+}
+.rettangolo-white:hover{
+  transform: scale(1.014);
+  box-shadow: 0 10px 50px -5px rgba(51,71,91,0.12);
+}
+
+/* TRE COLONNE ----------- */
+
+.col{
+  background: WHITE;
+  border-radius: 4px;
+  box-shadow: 0 0 11px #eaf0f6;
+  transition: 0.3s ease-in-out;
+  height: 250px;
+  width: 31%;
+  float: left;
+  padding: 2rem;
+  margin-bottom: 36;
+}
+
+.col:hover{
+  transform: scale(1.014);
+  box-shadow: 0 10px 50px -5px rgba(51,71,91,0.12);
+}
+
+.tre-colonne::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.tre-colonne{
+  width: 100%;
+  margin: auto
 }
