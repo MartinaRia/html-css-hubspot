@@ -397,3 +397,30 @@ nav select, nav a{
 .col ul{
   margin-bottom: 30px;
 }
+
+.biggest .page-width{
+  padding-bottom: 100px;
+}
+
+/* BG-AQUA ---------------------------- */
+.bg-aqua{
+  background: linear-gradient(45deg, #00a4bd, #00bda5);
+}
+
+.bg-aqua .title {
+  text-align: center;
+  padding: 100px;
+  color: white;
+  font-weight: 500;
+}
+
+.bg-aqua .title h2{
+  font-size: 1.777rem;
+  line-height: 1.3125em;
+  padding-bottom: 25px;
+}
+.bg-aqua .title p{
+  font-size: 1rem;
+  line-height: 1.6111111111111112em;
+  padding: 0px 60px;
+}
