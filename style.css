@@ -192,7 +192,7 @@ nav select, nav a{
   height: 695px;
 }
 
-.box-title{
+.jumbotron .box-title{
   position: absolute;
   top:100px;
   left:30px;
@@ -487,4 +487,98 @@ nav select, nav a{
   font-size: 1rem;
   font-weight: 500;
   line-height: 0.7em;
+}
+
+
+/* CUSTOMERS NUMBER ---------------------------- */
+
+.customers .page-width{
+  padding: 100px 0px;
+}
+
+/* customers number----------- */
+
+.customers-number h2{
+  margin: 0 0 15px;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.customers-number p{
+  font-size: 1.2rem;
+  letter-spacing: 0.02rem;
+  margin-top: 0;
+  line-height: 1.62em;
+}
+.customers-number span{
+  font-weight: 500;
+}
+.customers-number{
+  width: 40%;
+  padding: 0px 30px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* logos ----------------- */
+
+.logos{
+  width: 59%;
+  display:inline-block;
+  vertical-align: middle;
+}
+.logo{
+  width: 24%;
+  height: auto;
+  float: left;
+  padding: 20px;
+}
+.logos::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.logo img{
+  width: 100%;
+  vertical-align: middle;
+}
+
+/* WOMAN ------------------------------------ */
+
+.woman .page-width{
+  padding-bottom: 7.5rem;
+}
+
+/* box-title -------------- */
+
+.woman .box-title{
+  display: inline-block;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.box-title h2{
+  font-size: 1.777rem;
+  line-height: 1.304em;
+  font-weight: bold;
+}
+
+.woman .box-title a{
+  padding: 15px 20px;
+}
+
+.woman .button{
+  margin: 40px 0px;
+}
+
+/* img -------------- */
+
+.immagine {
+  display: inline-block;
+  text-align: right;
+  vertical-align: middle;
+  width: 49%;
+}
+
+.immagine img{
+  width: 350px;
 }
