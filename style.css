@@ -582,3 +582,79 @@ nav select, nav a{
 .immagine img{
   width: 350px;
 }
+
+/* FOOTER ---------------------------- */
+
+footer{
+  background-color: #33475b;
+  color: white;
+}
+
+footer h6{
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1.375;
+}
+
+ul{
+  list-style:none;
+}
+
+footer a{
+  text-decoration: none;
+  color: #cbd6e2;
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+
+.col-footer li{
+  padding: 0.5rem 0;
+}
+
+.col-footer{
+  float: left;
+  width: 24%;
+  margin: 80px 0px 50px 0px;
+  padding-right: 0.5%;
+}
+.col-footer:last-child{
+  float: right;
+}
+.col-footer-container::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.drop-down{
+  color: inherit;
+  font-weight: normal;
+}
+
+.drop-down::after{
+  content: "\25BC";
+  display: inline;
+  font-family: 'hsg-icons';
+  font-size: 12px;
+  padding-left: 0.5rem;
+}
+
+.white-button{
+  text-align: center;
+  border-radius: .1875rem;
+  background-color: #fff;
+  color: #33475b;
+  padding: 0.85em 1.111em 0.80em;
+  font-size: .75rem;
+  font-weight: 500;
+}
+
+.social i{
+  padding: 1.75rem 1rem 0.75rem 0rem;
+  color: #cbd6e2;
+}
+
+.social i:hover{
+  color: #0091ae;
+  cursor: pointer;
+}
