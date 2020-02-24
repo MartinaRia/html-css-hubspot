@@ -93,22 +93,25 @@ body{
 .lang::after{
   content: '\25BC';
   display: inline-block;
-  position: relative;
   color: #7c98b6;
   font-size: 17px;
   transform: scale(1, .7);
   margin: 0 0 0 0.625rem;
 }
-.lang-select{  padding-right: 20px;}
+.lang-select{
+  padding-right: 20px;
+  position: relative;
+  width: 100%;
+}
 
 .contact-sales{
   padding-left: 20px;
   border-left: solid 2px #cbd6e2;
 }
 .lang_drop-down{
-  /* display: none; */
+  display: none;
   position: absolute;
-  top: 0;
+  top: 150%;
   left: 0;
   background-color: #fff;
   border: 1px solid #cbd6e2;
@@ -118,10 +121,25 @@ body{
   font-family: inherit;
   color: inherit;
   text-decoration: none;
+  width: 100%;
+  padding: 10px 0px;
+  z-index: 95;
 }
-.lang:hover .lang_drop-down{
+.lang_drop-down a{
+  font-weight: 500;
+  color: #33475b;
+  font-size: 0.875rem;
+}
+.lang_drop-down li{
+  padding: 5px 0px 5px 20px;
+}
+.lang_drop-down li:hover{
+  background: #e5f5f8;
+}
+.lang-select:focus .lang_drop-down{
   display:block;
 }
+
 
 /* RIGHT ---- */
 
