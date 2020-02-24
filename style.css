@@ -607,6 +607,10 @@ footer a{
   font-weight: bold;
 }
 
+footer a:hover{
+  color: rgb(127, 209, 222);
+}
+
 .col-footer li{
   padding: 0.5rem 0;
 }
@@ -655,6 +659,22 @@ footer a{
 }
 
 .social i:hover{
-  color: #0091ae;
+  color: rgb(127, 209, 222);
   cursor: pointer;
+}
+
+/* LANGUAGES------------ */
+.lang-footer{
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+  color: #cbd6e2;
+}
+.lang-footer:hover{
+  color: rgb(127, 209, 222);
+  cursor: pointer;
+}
+.languages{
+  text-align: center;
+  padding-bottom: 2rem;
+  border-bottom: solid 1px #cbd6e2;
 }
