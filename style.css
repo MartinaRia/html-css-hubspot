@@ -76,30 +76,51 @@ body{
 
 
 /* LEFT ------*/
-
 .left{
   float: left;
   padding: 25px 0px;
 }
-
 .lang, .contact-sales a{
   color:#33475b;
   font-size: 0.875rem;
   font-weight: 500;
+  display: inline-block;
 }
-
 .lang {
-  background: none;
-  border: none;
   font-family: inherit;
-
+  padding-left: 8px;
 }
-
+.lang::after{
+  content: '\25BC';
+  display: inline-block;
+  position: relative;
+  color: #7c98b6;
+  font-size: 17px;
+  transform: scale(1, .7);
+  margin: 0 0 0 0.625rem;
+}
 .lang-select{  padding-right: 20px;}
 
 .contact-sales{
   padding-left: 20px;
-  border-left: solid 1px #cbd6e2;
+  border-left: solid 2px #cbd6e2;
+}
+.lang_drop-down{
+  /* display: none; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  border: 1px solid #cbd6e2;
+  border-radius: .1875rem;
+  box-shadow: 0 1px 24px rgba(45,62,80,0.12);
+  z-index: 95;
+  font-family: inherit;
+  color: inherit;
+  text-decoration: none;
+}
+.lang:hover .lang_drop-down{
+  display:block;
 }
 
 /* RIGHT ---- */
